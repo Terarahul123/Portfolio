@@ -20,6 +20,13 @@ export default function Portfolio() {
       highlights: ["Event booking system", "External API integration", "Real-time management"]
     },
     {
+      title: "Personal Portfolio Website",
+      date: "December 2024",
+      tags: ["React", "Tailwind CSS", "Vite"],
+      description: "Responsive portfolio website with modern UI, gradient effects, smooth navigation, and automated deployment via Vercel with CI/CD integration.",
+      highlights: ["Responsive design", "Modern UI/UX", "Vercel CI/CD deployment"]
+    },
+    {
       title: "PC Monitoring Digital Twin",
       date: "March 2023",
       tags: ["Unreal Engine", "3D", "IoT"],
