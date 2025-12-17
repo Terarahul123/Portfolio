@@ -13,6 +13,13 @@ export default function Portfolio() {
       highlights: ["Responsive design", "Modern UI/UX", "Vercel CI/CD deployment"]
     },
     {
+      title: "Multilingual NER System",
+      date: "December 2024",
+      tags: ["NLP", "PyTorch", "HuggingFace"],
+      description: "Cross-lingual Named Entity Recognition system comparing BERT models with multilingual encoders (mBERT, XLM-R) for English-to-Japanese transfer learning.",
+      highlights: ["Zero-shot transfer", "0.54 F1 with 1k samples", "WikiAnn dataset (40k samples)"]
+    },
+    {
       title: "Interactive Shortest Path Visualizer",
       date: "July 2025",
       tags: ["React", "TypeScript", "Algorithms"],
@@ -33,20 +40,6 @@ export default function Portfolio() {
       description: "3D digital twin of university computer labs for remote PC visualization, selection, and energy-efficient shutdown management.",
       highlights: ["Unreal Engine 3D", "Remote management", "Energy optimization"]
     },
-    {
-      title: "Emotion-Based Music Recommender",
-      date: "August 2023",
-      tags: ["ML", "Computer Vision", "Python"],
-      description: "ML system recommending songs based on facial expression analysis with automated personalized music selection pipeline.",
-      highlights: ["Emotion detection", "Image processing", "Personalized recommendations"]
-    },
-    {
-      title: "Multilingual NER System",
-      date: "December 2024",
-      tags: ["NLP", "PyTorch", "HuggingFace"],
-      description: "Cross-lingual Named Entity Recognition system comparing BERT models with multilingual encoders (mBERT, XLM-R) for English-to-Japanese transfer learning.",
-      highlights: ["Zero-shot transfer", "0.54 F1 with 1k samples", "WikiAnn dataset (40k samples)"]
-    }
   ];
 
   const skills = {
