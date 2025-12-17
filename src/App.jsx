@@ -6,6 +6,13 @@ export default function Portfolio() {
   
   const projects = [
     {
+      title: "Personal Portfolio Website",
+      date: "December 2024",
+      tags: ["React", "Tailwind CSS", "Vite"],
+      description: "Responsive portfolio website with modern UI, gradient effects, smooth navigation, and automated deployment via Vercel with CI/CD integration.",
+      highlights: ["Responsive design", "Modern UI/UX", "Vercel CI/CD deployment"]
+    },
+    {
       title: "Interactive Shortest Path Visualizer",
       date: "July 2025",
       tags: ["React", "TypeScript", "Algorithms"],
@@ -18,13 +25,6 @@ export default function Portfolio() {
       tags: ["Full-Stack", "APIs", "SaaS"],
       description: "Full-stack platform with user registration, event booking, feedback systems, and organizer tools for real-time event management.",
       highlights: ["Event booking system", "External API integration", "Real-time management"]
-    },
-    {
-      title: "Personal Portfolio Website",
-      date: "December 2024",
-      tags: ["React", "Tailwind CSS", "Vite"],
-      description: "Responsive portfolio website with modern UI, gradient effects, smooth navigation, and automated deployment via Vercel with CI/CD integration.",
-      highlights: ["Responsive design", "Modern UI/UX", "Vercel CI/CD deployment"]
     },
     {
       title: "PC Monitoring Digital Twin",
